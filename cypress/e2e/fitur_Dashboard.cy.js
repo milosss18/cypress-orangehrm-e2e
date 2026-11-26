@@ -320,7 +320,7 @@ it('Verifies Employee Distribution by Sub Unit Tooltip', ()=>{
   })
 
 
-  it.only('Verifies Employee Distribution by Location Tooltip', () => {
+  it('Verifies Employee Distribution by Location Tooltip', () => {
   // ===== HELPER PIE CHART =====
   // Fungsi hover ke satu titik di pie chart, berdasarkan derajat (deg) dan jarak dari pusat (ratio, default 0.7)
   const hoverAtAngle = ($canvas, deg, ratio = 0.7) => {
