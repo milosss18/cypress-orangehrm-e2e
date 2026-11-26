@@ -1,0 +1,15 @@
+{
+    "name": "cypress-orangehrm-e2e",
+    "version": "1.0.0",
+    "scripts": {
+        "test": "cypress run",
+        "test:open": "cypress open"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "description": "Cypress end-to-end tests for the OrangeHRM demo",
+    "dependencies": {
+        "cypress": "^16.2.1"
+    }
+}
